@@ -1,0 +1,102 @@
+body {			
+	margin:0; /* - отступ от внешних границ - */
+	padding:0; /* - отступ внутри блока - */
+}
+
+main, header {
+	width: 970px; /* - ширина блока - */
+	padding : 0; margin: 0 auto; /* - отступы - */
+}
+
+header, nav, section, aside, footer {
+	overflow: hidden; /* - отображается только область внутри элемента, остальное будет обрезано - */ 
+	display: inline-block; /* - обтекание другими элементами - */
+}
+
+nav, section, aside {
+	float:left; /* - выравнивание по левому краю - */
+} 
+
+header, footer {
+	width:100% /* - ширина блока - */
+} 
+
+nav {
+	width:22%;
+} /* - ширина блока - */
+
+
+section {
+	width:60%; /* - ширина блока - */
+	background-color:#fff; /* - цвет фона блока - */
+	padding : 0 0 20px 0; /* - отступ снизу, чтобы текст не лепился к нижней части блока - */
+}
+
+section p {
+	font:14px Times New Roman, helvetica, sans-serif;color:#333; /* - размер шрифта, шрифты, цвет текста в блоке - */
+	padding : 0 9px 0 9px; line-height:1.5; /* - отступ текста в блоке справа и слева, межстрочный интервал - */
+}
+
+section ol {
+	font:14px Times New Roman, helvetica, sans-serif;color:#333; /* - размер шрифта, шрифты, цвет текста в блоке - */
+	padding : 0 9px 0 25px; line-height:1.5; /* - отступ текста в блоке справа и слева, межстрочный интервал - */
+}
+
+section ul {
+	font:14px verdana, helvetica, sans-serif;color:#333; /* - размер шрифта, шрифты, цвет текста в блоке - */
+	line-height:1.5; /* - отступ текста в блоке справа и слева, межстрочный интервал - */
+}
+
+aside {
+	width: 18%;  /* - ширина блока -*/
+}
+
+aside p {
+	font:12px verdana, helvetica, sans-serif;color:#333; /* - размер шрифта, шрифты, цвет текста в блоке - */
+	padding : 0 7px 0 7px; line-height:1.5; /* - отступ текста в боке справа и слева, межстрочный интервал - */
+}
+
+footer {
+	background-color:#333; /* - цвет фона блока - */
+	padding : 10px 0 10px 0; /* - отступ сверху и снизу - */
+	text-align:center; /* - равнение по центру - */
+}
+
+footer {
+	font: 10px verdana, helvetica, sans-serif;color: white; /* - размер шрифта, шрифты, цвет текста в блоке - */
+}
+
+nav ul {
+	line-height:1.5; /* - межстрочный интервал - */
+	font:12px helvetica, verdana, arial, sans-serif;
+	padding: 0 0 0 20px;
+}
+
+h1.head {
+	background-color:#333;
+	color: white; /* - цвет текста - */
+	height:90px; /* - высота блока - */
+	margin:0; /* - отступ - */
+	padding : 10px 0; /* - отступ сверху и снизу - */
+	text-align:center;
+}
+
+h2 {
+	color:DimGrey;
+	font:22px helvetica, verdana, arial, sans-serif;
+	font-weight:700; /* - насыщенность шрифта - */
+	margin: 5px 0 0 10px;
+}
+
+
+a, a:visited {
+	color:DimGrey; /* - цвет ссылок - */
+	font-weight:900;
+	text-decoration:none; /* - убрали подчеркивание - */
+}
+
+a:hover{
+	color: #002200	; /* - цвет ссылок при наведении курсора- */
+	font-weight: 900;
+	text-decoration:none;
+}
